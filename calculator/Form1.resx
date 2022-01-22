@@ -1,0 +1,834 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Memory.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Memory.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Memory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 59</value>
+  </data>
+  <data name="Memory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 51</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Memory.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Memory.Text" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="&gt;&gt;Memory.Name" xml:space="preserve">
+    <value>Memory</value>
+  </data>
+  <data name="&gt;&gt;Memory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Memory.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Memory.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <metadata name="MemoryAdd.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="MemoryAdd.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="MemoryAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 59</value>
+  </data>
+  <data name="MemoryAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 51</value>
+  </data>
+  <data name="MemoryAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="MemoryAdd.Text" xml:space="preserve">
+    <value>M+</value>
+  </data>
+  <data name="&gt;&gt;MemoryAdd.Name" xml:space="preserve">
+    <value>MemoryAdd</value>
+  </data>
+  <data name="&gt;&gt;MemoryAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MemoryAdd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MemoryAdd.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <metadata name="MemorySub.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="MemorySub.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="MemorySub.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 59</value>
+  </data>
+  <data name="MemorySub.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 51</value>
+  </data>
+  <data name="MemorySub.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="MemorySub.Text" xml:space="preserve">
+    <value>M-</value>
+  </data>
+  <data name="&gt;&gt;MemorySub.Name" xml:space="preserve">
+    <value>MemorySub</value>
+  </data>
+  <data name="&gt;&gt;MemorySub.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MemorySub.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MemorySub.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <metadata name="Delete.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="Delete.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Delete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 59</value>
+  </data>
+  <data name="Delete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 51</value>
+  </data>
+  <data name="Delete.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Delete.Text" xml:space="preserve">
+    <value>CE</value>
+  </data>
+  <data name="&gt;&gt;Delete.Name" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;Delete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Delete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Delete.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <metadata name="Seven.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="Seven.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Seven.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 185</value>
+  </data>
+  <data name="Seven.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 51</value>
+  </data>
+  <data name="Seven.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Seven.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Seven.Name" xml:space="preserve">
+    <value>Seven</value>
+  </data>
+  <data name="&gt;&gt;Seven.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Seven.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Seven.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <metadata name="Eight.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="Eight.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Eight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 185</value>
+  </data>
+  <data name="Eight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 51</value>
+  </data>
+  <data name="Eight.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Eight.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Eight.Name" xml:space="preserve">
+    <value>Eight</value>
+  </data>
+  <data name="&gt;&gt;Eight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Eight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Eight.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <metadata name="Nine.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="Nine.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Nine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 185</value>
+  </data>
+  <data name="Nine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 51</value>
+  </data>
+  <data name="Nine.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Nine.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Nine.Name" xml:space="preserve">
+    <value>Nine</value>
+  </data>
+  <data name="&gt;&gt;Nine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Nine.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Nine.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <metadata name="Division.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="Division.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Division.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 185</value>
+  </data>
+  <data name="Division.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 51</value>
+  </data>
+  <data name="Division.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Division.Text" xml:space="preserve">
+    <value>÷</value>
+  </data>
+  <data name="&gt;&gt;Division.Name" xml:space="preserve">
+    <value>Division</value>
+  </data>
+  <data name="&gt;&gt;Division.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Division.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Division.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <metadata name="Four.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="Four.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Four.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 242</value>
+  </data>
+  <data name="Four.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 51</value>
+  </data>
+  <data name="Four.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Four.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Four.Name" xml:space="preserve">
+    <value>Four</value>
+  </data>
+  <data name="&gt;&gt;Four.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Four.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Four.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <metadata name="Five.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="Five.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Five.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 242</value>
+  </data>
+  <data name="Five.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 51</value>
+  </data>
+  <data name="Five.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Five.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Five.Name" xml:space="preserve">
+    <value>Five</value>
+  </data>
+  <data name="&gt;&gt;Five.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Five.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Five.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <metadata name="Six.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="Six.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Six.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 242</value>
+  </data>
+  <data name="Six.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 51</value>
+  </data>
+  <data name="Six.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Six.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Six.Name" xml:space="preserve">
+    <value>Six</value>
+  </data>
+  <data name="&gt;&gt;Six.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Six.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Six.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <metadata name="Times.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="Times.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Times.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 242</value>
+  </data>
+  <data name="Times.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 51</value>
+  </data>
+  <data name="Times.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="Times.Text" xml:space="preserve">
+    <value>×</value>
+  </data>
+  <data name="&gt;&gt;Times.Name" xml:space="preserve">
+    <value>Times</value>
+  </data>
+  <data name="&gt;&gt;Times.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Times.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Times.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <metadata name="One.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="One.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="One.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 299</value>
+  </data>
+  <data name="One.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 51</value>
+  </data>
+  <data name="One.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="One.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;One.Name" xml:space="preserve">
+    <value>One</value>
+  </data>
+  <data name="&gt;&gt;One.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;One.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;One.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <metadata name="Two.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="Two.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Two.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 299</value>
+  </data>
+  <data name="Two.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 51</value>
+  </data>
+  <data name="Two.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Two.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Two.Name" xml:space="preserve">
+    <value>Two</value>
+  </data>
+  <data name="&gt;&gt;Two.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Two.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Two.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <metadata name="Tree.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="Tree.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Tree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 299</value>
+  </data>
+  <data name="Tree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 51</value>
+  </data>
+  <data name="Tree.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="Tree.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Tree.Name" xml:space="preserve">
+    <value>Tree</value>
+  </data>
+  <data name="&gt;&gt;Tree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Tree.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Tree.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="Minus.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="Minus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Minus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 299</value>
+  </data>
+  <data name="Minus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 51</value>
+  </data>
+  <data name="Minus.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="Minus.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;Minus.Name" xml:space="preserve">
+    <value>Minus</value>
+  </data>
+  <data name="&gt;&gt;Minus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Minus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Minus.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="Common.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="Common.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Common.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 356</value>
+  </data>
+  <data name="Common.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 51</value>
+  </data>
+  <data name="Common.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="Common.Text" xml:space="preserve">
+    <value>,</value>
+  </data>
+  <data name="&gt;&gt;Common.Name" xml:space="preserve">
+    <value>Common</value>
+  </data>
+  <data name="&gt;&gt;Common.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Common.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Common.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="Zero.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="Zero.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Zero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 356</value>
+  </data>
+  <data name="Zero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 51</value>
+  </data>
+  <data name="Zero.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="Zero.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Zero.Name" xml:space="preserve">
+    <value>Zero</value>
+  </data>
+  <data name="&gt;&gt;Zero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Zero.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Zero.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="Equal.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="Equal.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Equal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 356</value>
+  </data>
+  <data name="Equal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 51</value>
+  </data>
+  <data name="Equal.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Equal.Text" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="&gt;&gt;Equal.Name" xml:space="preserve">
+    <value>Equal</value>
+  </data>
+  <data name="&gt;&gt;Equal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Equal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Equal.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="Plus.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="Plus.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Plus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 356</value>
+  </data>
+  <data name="Plus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 51</value>
+  </data>
+  <data name="Plus.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="Plus.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="&gt;&gt;Plus.Name" xml:space="preserve">
+    <value>Plus</value>
+  </data>
+  <data name="&gt;&gt;Plus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Plus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Plus.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="Sign.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="Sign.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Sign.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 128</value>
+  </data>
+  <data name="Sign.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 51</value>
+  </data>
+  <data name="Sign.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="Sign.Text" xml:space="preserve">
+    <value>±</value>
+  </data>
+  <data name="&gt;&gt;Sign.Name" xml:space="preserve">
+    <value>Sign</value>
+  </data>
+  <data name="&gt;&gt;Sign.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sign.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sign.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="SquareRoot.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SquareRoot.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="SquareRoot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 128</value>
+  </data>
+  <data name="SquareRoot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 51</value>
+  </data>
+  <data name="SquareRoot.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="SquareRoot.Text" xml:space="preserve">
+    <value>√</value>
+  </data>
+  <data name="&gt;&gt;SquareRoot.Name" xml:space="preserve">
+    <value>SquareRoot</value>
+  </data>
+  <data name="&gt;&gt;SquareRoot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SquareRoot.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SquareRoot.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="Square.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="Square.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Square.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 128</value>
+  </data>
+  <data name="Square.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 51</value>
+  </data>
+  <data name="Square.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="Square.Text" xml:space="preserve">
+    <value>x²</value>
+  </data>
+  <data name="&gt;&gt;Square.Name" xml:space="preserve">
+    <value>Square</value>
+  </data>
+  <data name="&gt;&gt;Square.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Square.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Square.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="Backslash.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="Backslash.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Backslash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 128</value>
+  </data>
+  <data name="Backslash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 51</value>
+  </data>
+  <data name="Backslash.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="Backslash.Text" xml:space="preserve">
+    <value>←</value>
+  </data>
+  <data name="&gt;&gt;Backslash.Name" xml:space="preserve">
+    <value>Backslash</value>
+  </data>
+  <data name="&gt;&gt;Backslash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Backslash.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Backslash.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Visor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14pt</value>
+  </data>
+  <data name="Visor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 17</value>
+  </data>
+  <data name="Visor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 39</value>
+  </data>
+  <data name="Visor.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Visor.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Visor.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Visor.Name" xml:space="preserve">
+    <value>Visor</value>
+  </data>
+  <data name="&gt;&gt;Visor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Visor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Visor.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>273, 422</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Calculator</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Calculator</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
